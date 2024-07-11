@@ -1,13 +1,19 @@
 $(document).ready(function() {
 
+    // Tooltip sobre boton enviar
+
     $('#enviar-mensaje').tooltip({
         title: 'Presiona para enviar tu mensaje',
         placement: 'bottom'
     });
 
+    // Mensaje de alerta cuando se presiona el bonton enviar
+
     $('#enviar-mensaje').on('click', function() {
         alert('El mensaje fue enviado correctamente...');
     });
+
+    // Toltip sobre cada iconos de redes sociales
 
     $('#github').tooltip({
         title: 'ir a GitHub',

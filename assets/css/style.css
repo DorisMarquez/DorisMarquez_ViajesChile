@@ -1,41 +1,61 @@
-footer {
-    /* background-color:#40c7cf; */
-    /* background-color: #37a5ab; */
-    /* background-color: #3adfe8; */
-    background-color: #3acbe8;
-    height: 100px;
 
+
+/* Barra de navegación */
+
+nav {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* Sección quiénes somos */
+
+#quienes-somos {
+  font-family: 'Raleway', sans-serif;
+}
+
+#quienes-somos i {
+  font-size: 30px;
+  padding: 5px;
+}
+
+
+/* Seccion destacados */
+
+#destacados {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card img {
+  height: 150px;
+}
+
+
+/* Sección contacto */
+
+#contacto {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* Pie de página */
+
+footer {
+  height: 100px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer-texto {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-top: 30px;
-
-
-    /* padding: 20px; */
-    /* margin-bottom: 30px; */
-    /* font-family: 'Quicksand', sans-serif; */
+  font-size: 1.5rem;
+  margin-top: 30px;
   }
   
-  .iconos-redes-sociales a {
-    /* width: 50px; */
-    /* height: 50px; */
-    /* display: inline-flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding: 10px; */
-    /* margin: 10px; */
-    text-decoration: none;
-    /* border: 2px solid white; */
-    /* border-radius: 50%; */
-    /* transition: all 0.2s ease-in; */
-  }
-  
-  .iconos-redes-sociales i {
-    color: #fff;
-    font-size: 1.75rem;
-    margin-right: 10px;
-    padding-top: 35px;
-    /* transition: all 0.2s ease-in; */
-  }
+.iconos-redes-sociales a {
+  text-decoration: none;
+}
+
+.iconos-redes-sociales i {
+  color: #fff;
+  font-size: 1.75rem;
+  margin-right: 10px;
+  padding-top: 35px;
+}
